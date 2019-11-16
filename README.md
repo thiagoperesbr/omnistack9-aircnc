@@ -1,51 +1,83 @@
-# Aircnc
+<h1 align="center">
+    <img alt="Aircnc" src=".github/logo.png" width="250px" />
+</h1>
+
+<h4 align="center">
+  ☕ Code and coffee
+</h4>
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/thiagoperesbr/omnistack9-aircnc">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/thiagoperesbr/omnistack9-aircnc">
+  
+  <a href="https://github.com/Rocketseat/semana-omnistack-9/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thiagoperesbr/omnistack9-aircnc">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
+<p align="center">
+  <img alt="Frontend" src=".github/aircnc.png" width="100%">
+</p>
+
+## 💻 Projeto
+
+O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período.
 
 Aplicação desenvolvida durante a Semana OmniStack 9.0, evento de capacitação online organizado pela [Rocketseat](https://rocketseat.com.br).
 
-O projeto é inspirado no Airbnb, mas com um ramo de negócio diferente. Sua ideia é: empresas de desenvolvimento de software podem disponibilizar seus escritórios ou locais de trabalho como um espaço de coworking para outros desenvolvedores poderem programar, receber mentorias e quem sabe até uma oportunidade de estágio ou emprego.
+## 🚀 Tecnologias
 
-A aplicação consiste em 3 camadas:
-- Back-End utilizando Node.js
-- Front-End utilizando React
-- Mobile utilizando React Native e Expo
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-A versão web é utilizada pela empresa que vai disponibilizar um "Spot". Consiste em 3 telas:
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
-### Login
-![frontend-login](https://user-images.githubusercontent.com/11603445/66359998-b0d5ca80-e94f-11e9-92b3-1bb078264691.png)
+## 🚀 Instalação e execução
 
-### Dashboard
-![frontend-dashboard](https://user-images.githubusercontent.com/11603445/66360044-f09cb200-e94f-11e9-8cc3-1ae17cdb4716.png)
+1. Faça um clone desse repositório;
+2. Entre na pasta rodando `cd omnistack9-aircnc/backend`;
+3. Rode `yarn` para instalar as dependências;
+4. Rode `yarn dev` para iniciar o servidor de desenvolvimento;
+5. Abra nova aba no terminal;
+6. Entre na pasta rodando `cd omnistack9-aircnc/frontend`;
+7. Rode `yarn` para instalar as dependências;
+8. Rode `yarn start` para iniciar o projeto WEB no navegador;
+9. Abra nova aba no terminal;
+10. Entre na pasta rodando `cd omnistack9-aircnc/mobile`;
+11. Rode `yarn` para instalar as dependências;
+12. Rode `react-native run-android ou run ios` para iniciar o projeto MOBILE no emulador;
 
-### New
-![frontend-new](https://user-images.githubusercontent.com/11603445/66360103-2a6db880-e950-11e9-8499-f241593e0478.png)
+## :memo: Licença
 
-A versão mobile é utilizada pelo desenvolvedor interessado comparecer em algum "Spot". Suas telas são:
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-### Login
-<img src="https://user-images.githubusercontent.com/11603445/66360344-28582980-e951-11e9-95a0-d5a63504aeae.jpeg" width="350" height="600">
+## 💻 Captura de Telas
 
-### List
-<img src="https://user-images.githubusercontent.com/11603445/66360349-2c844700-e951-11e9-815f-c0dd5bed93af.jpeg" width="350" height="600">
+### Web
 
-### Book
-<img src="https://user-images.githubusercontent.com/11603445/66360355-3148fb00-e951-11e9-9edb-5a5a48a63269.jpeg" width="350" height="600">
+#### Login
+![Login](.github/screens/web-login.jpg)
 
-<!---
-# Instruções de execução
-1) Clonar o repositório (git clone URL)
-2) cd aircnc
-3) cd backend
-4) yarn install
-5) yarn dev
-6) Abrir nova aba do terminal
-7) cd ..
-8) cd frontend
-9) yarn install
-10) yarn start
-11) Abrir nova aba do terminal
-12) cd ..
-13) cd mobile
-14) yarn install
-15) yarn start
--->
+#### Dashboard
+![Dashboard](.github/screens/web-dashboard.jpg)
+
+#### New
+![New](.github/screens/web-new.jpg)
+
+<br>
+
+### Mobile
+
+#### Login
+![Login](.github/screens/mobile-login.jpg)
+
+#### List
+![List](.github/screens/mobile-list.jpg)
+
+#### Booking
+![Booking](.github/screens/mobile-booking.jpg)

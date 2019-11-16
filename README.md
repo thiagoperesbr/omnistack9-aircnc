@@ -15,7 +15,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thiagoperesbr/omnistack9-aircnc">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="License" src="https://img.shields.io/github/license/thiagoperesbr/omnistack9-aircnc">
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ Aplicação desenvolvida durante a Semana OmniStack 9.0, evento de capacitação
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
+- [ReactJS](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
@@ -51,10 +51,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 10. Entre na pasta rodando `cd omnistack9-aircnc/mobile`;
 11. Rode `yarn` para instalar as dependências;
 12. Rode `react-native run-android ou run ios` para iniciar o projeto MOBILE no emulador;
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ## 💻 Captura de Telas
 
@@ -81,3 +77,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 #### Booking
 ![Booking](.github/screens/mobile-booking.jpg)
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.

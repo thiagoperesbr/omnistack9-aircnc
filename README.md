@@ -11,7 +11,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/thiagoperesbr/omnistack9-aircnc">
   
-  <a href="https://github.com/Rocketseat/semana-omnistack-9/commits/master">
+  <a href="https://github.com/thiagoperesbr/omnistack9-aircnc/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thiagoperesbr/omnistack9-aircnc">
   </a>
 
@@ -44,12 +44,6 @@ Projeto desenvolvido durante a **Semana Omnistack** oferecida pela [Rocketseat](
 A Semana Omnistack é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 
 ## 💻 Layout
-
-O layout da aplicação está disponível no Figma:
-
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by RocketSeat" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
 
 ### Web
 
@@ -89,7 +83,7 @@ Podemos considerar este projeto como sendo divido em três partes:
 2. Front End (pasta frontend)
 3. Mobile (pasta mobile)
 
-💡 Tanto o Front-end quanto o Mobile precisam que o Back-end esteja sendo executado para funcionar.
+💡 Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
 
 ### Pré-requisitos
 

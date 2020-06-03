@@ -16,6 +16,10 @@
   </a>
 
   <img alt="License" src="https://img.shields.io/github/license/thiagoperesbr/omnistack9-aircnc">
+  
+  <a href="https://www.linkedin.com/in/thiagoperes/">
+    <img alt="Made by thiagoperesbr" src="https://img.shields.io/badge/made%20by-thiagoperesbr-yellow">
+  </a>
 </p>
 
 <p align="center">
@@ -24,60 +28,137 @@
 
 ## 💻 Projeto
 
-O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período.
+Aircnc - é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer empresas e trabalhar lá por um período.
 
-Aplicação desenvolvida durante a Semana OmniStack 9.0, evento de capacitação online organizado pela [Rocketseat](https://rocketseat.com.br).
+As empresas ou entidades poderão se cadastrar na plataforma web enviando:
+- uma imagem do spot da empresa/entidade
+- nome da empresa/entidade
+- tecnologias disponíveis naquele spot
+- e o valor da diária (podendo até ser gratuito) 
 
-## 🚀 Tecnologias
+Os usuários terão acesso ao aplicativo móvel, onde poderão:
+- navegar para ver as empresas/entidades cadastradas por tecnologia
+- solicitar uma reserva do spot
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Projeto desenvolvido durante a **Semana Omnistack** oferecida pela [Rocketseat](https://rocketseat.com.br).
+A Semana Omnistack é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 
-- [Node.js](https://nodejs.org/en/)
-- [ReactJS](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+## 💻 Layout
 
-## 🚀 Instalação e execução
+O layout da aplicação está disponível no Figma:
 
-1. Faça um clone desse repositório;
-2. Entre na pasta rodando `cd omnistack9-aircnc/backend`;
-3. Rode `yarn` para instalar as dependências;
-4. Rode `yarn dev` para iniciar o servidor de desenvolvimento;
-5. Abra nova aba no terminal;
-6. Entre na pasta rodando `cd omnistack9-aircnc/frontend`;
-7. Rode `yarn` para instalar as dependências;
-8. Rode `yarn start` para iniciar o projeto WEB no navegador;
-9. Abra nova aba no terminal;
-10. Entre na pasta rodando `cd omnistack9-aircnc/mobile`;
-11. Rode `yarn` para instalar as dependências;
-12. Rode `react-native run-android ou run ios` para iniciar o projeto MOBILE no emulador;
-
-## 💻 Captura de Telas
+<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
+  <img alt="Made by RocketSeat" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
 
 ### Web
 
-#### Login
-![Login](.github/screens/web-login.jpg)
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Web Login" title="Web Login" src="./.github/screens/web-login.jpg" width="400px">
 
-#### Dashboard
-![Dashboard](.github/screens/web-dashboard.jpg)
-
-#### New
-![New](.github/screens/web-new.jpg)
+  <img alt="Web Dashboard" title="Web Dashboard" src="./.github/screens/web-dashboard.jpg" width="400px">
+  
+  <img alt="Web Cadastro" title="Web Cadastro" src="./.github/screens/web-new.jpg" width="400px">
+</p>
 
 <br>
 
 ### Mobile
 
-#### Login
-![Login](.github/screens/mobile-login.jpg)
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Mobile Login" title="Mobile Login" src="./.github/screens/mobile-login.jpg" width="300px">
 
-#### List
-![List](.github/screens/mobile-list.jpg)
+  <img alt="Mobile List" title="Mobile List" src="./.github/screens/mobile-list.jpg" width="300px">
+  
+  <img alt="Mobile Booking" title="Mobile Booking" src="./.github/screens/mobile-booking.jpg" width="300px">
+</p>
 
-#### Booking
-![Booking](.github/screens/mobile-booking.jpg)
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+
+## 🚀 Instalação e execução
+
+Podemos considerar este projeto como sendo divido em três partes:
+1. Back End (pasta backend) 
+2. Front End (pasta frontend)
+3. Mobile (pasta mobile)
+
+💡 Tanto o Front-end quanto o Mobile precisam que o Back-end esteja sendo executado para funcionar.
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+1. [Git](https://git-scm.com)
+2. [Node.js](https://nodejs.org/en/)
+3. [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando o servidor (Back End)
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/thiagoperesbr/omnistack9-aircnc.git
+# Acesse a pasta do projeto no terminal/cmd
+$ cd omnistack9-aircnc
+# Vá para a pasta server
+$ cd backend
+# Instale as dependências
+$ npm install
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+```
+
+### 🧭 Rodando a aplicação web (Front End)
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/thiagoperesbr/omnistack9-aircnc.git
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd omnistack9-aircnc
+# Vá para a pasta da aplicação Front End
+$ cd frontend
+# Instale as dependências
+$ npm install
+# Execute a aplicação web
+$ npm run start
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+
+### 📱Rodando a aplicação mobile (Mobile)
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/thiagoperesbr/omnistack9-aircnc.git
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd omnistack9-aircnc
+# Vá para a pasta da aplicação Front End
+$ cd mobile
+# Instale as dependências
+$ npm install
+# Execute o Emulador
+$ emulator -avd 'avd-name'
+# Execute a aplicação mobile
+$ react-native run-android (ou run ios)
+# A aplicação será aberta no Emulador
+```
+
+## 😯 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+Feito com ❤️ por Thiago Mourão Peres 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thiagoperes/)

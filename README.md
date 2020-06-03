@@ -66,11 +66,11 @@ O layout da aplicação está disponível no Figma:
 ### Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Mobile Login" title="Mobile Login" src="./.github/screens/mobile-login.jpg" width="300px">
+  <img alt="Mobile Login" title="Mobile Login" src="./.github/screens/mobile-login.jpg" width="250px">
 
-  <img alt="Mobile List" title="Mobile List" src="./.github/screens/mobile-list.jpg" width="300px">
+  <img alt="Mobile List" title="Mobile List" src="./.github/screens/mobile-list.jpg" width="250px">
   
-  <img alt="Mobile Booking" title="Mobile Booking" src="./.github/screens/mobile-booking.jpg" width="300px">
+  <img alt="Mobile Booking" title="Mobile Booking" src="./.github/screens/mobile-booking.jpg" width="250px">
 </p>
 
 ## 🚀 Tecnologias
